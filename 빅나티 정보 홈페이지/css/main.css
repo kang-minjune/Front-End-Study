@@ -2,3 +2,22 @@
     font-size: large;
 }
 
+table .song{
+    table-layout: auto;
+    position: absolute;
+}
+
+span{
+    display: inline-block;
+}
+
+div{
+    display: block;
+}
+
+div span{
+    display: inline-block;
+}
+
+
+
