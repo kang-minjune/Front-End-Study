@@ -1,0 +1,22 @@
+.music{
+    font-size: large;
+}
+
+table .song{
+    table-layout: auto;
+    position: absolute;
+}
+
+
+
+div{
+    display: block;
+}
+
+span{
+    display: inline-block;
+}
+
+
+
+
