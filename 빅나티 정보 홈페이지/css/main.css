@@ -7,17 +7,16 @@ table .song{
     position: absolute;
 }
 
-span{
-    display: inline-block;
-}
+
 
 div{
     display: block;
 }
 
-div span{
+span{
     display: inline-block;
 }
+
 
 
 
