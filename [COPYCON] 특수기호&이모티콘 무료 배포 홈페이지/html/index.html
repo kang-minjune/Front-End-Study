@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../img/icons8-trust-100.ico"> <!-- 파비콘 삽입 코드-->
+
+    <meta charset="UTF-8">
+    <title>COPYCON</title>
+    <style>
+        body {background: white;}
+        #wrap {width: 1000px; height: 900px; margin: 0 auto; font-size: 40px; color: #fff; text-align: center; text-transform: uppercase;}
+        
+        .header {
+            font-size: large; 
+            float: left; 
+            width: 1200px; 
+            height: 1200px; 
+            background-color: whitesmoke;
+            text-align: center;
+            border: 2px solid burlywood;
+            border-radius: 15px;
+        }
+        
+        .contents {float: left; width: 1200px; height: 600px; line-height: 300px; border: 2px solid burlywood; border-radius:15px; background-color: whitesmoke;}
+        
+        .emoticon{text-align: center; font-size: 10px;}
+        
+        textarea{
+            background: whitesmoke;
+            border: 0px solid green;
+            border-radius: 15px;
+        }
+
+        h1{
+            color: black;
+            font-size: 32px;
+            
+        
+        }
+
+        
+
+        /*하트티콘 CSS*/
+        #my-text1{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text2{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text3{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text4{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text5{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text6{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text7{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text8{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px; color:white;}
+        #my-text9{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+        #my-text10{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+        #my-text11{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+        #my-text12{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+        #my-text13{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+        #my-text14{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+        #my-text15{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:white;}
+
+        
+
+        /*카드티콘 CSS*/
+        #my-text16{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black; font-size: 14px; text-align: center;}
+        #my-text17{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text18{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text19{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text20{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text21{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text22{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text23{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text24{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text25{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text26{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text27{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text28{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text29{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text30{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+
+        #my-text31{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text32{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text33{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text34{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text35{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text36{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text37{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text38{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text39{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text40{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text41{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text42{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text43{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text44{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text45{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+
+        #my-text46{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text47{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text48{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text49{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text50{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text51{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text52{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text53{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text54{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text55{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text56{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text57{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text58{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text59{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text60{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+
+        #my-text61{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text62{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text63{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text64{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text65{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text66{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text67{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text68{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text69{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text70{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text71{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text72{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text73{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text74{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+        #my-text75{height: 19px; width: 19px; padding: 10px; border: 1px solid gold; resize: none; border-radius: 10px;color:black;font-size: 14px; text-align: center;}
+
+        button{
+            background-color: whitesmoke;
+            color: black;
+            font-size:17px;
+            border: none;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+       
+        <div class="header">
+
+            <!--하트티콘 HTML-->
+            <table class="emoticon" align="center">
+                <caption><h1>특수기호</h1></caption><br><br>
+                <thead>
+                
+            
+                </thead>
+                
+                <tbody>
+
+                    <tr>
+                    <td><textarea id="my-text1">💙</textarea><br><button onclick="copyText1()">COPY</button></td>              
+                    <td><textarea id="my-text2">🧡</textarea><br><button onclick="copyText2()">COPY</button></td>          
+                    <td><textarea id="my-text3">💚</textarea><br><button onclick="copyText3()">COPY</button></td>          
+                    <td><textarea id="my-text4">💛</textarea><br><button onclick="copyText4()">COPY</button></td>                  
+                    <td><textarea id="my-text5">💜</textarea><br><button onclick="copyText5()">COPY</button></td>     
+                    <td><textarea id="my-text6">🖤</textarea><br><button onclick="copyText6()">COPY</button></td>     
+                    <td><textarea id="my-text7">💗</textarea><br><button onclick="copyText7()">COPY</button></td>
+                    <td><textarea id="my-text8">💓</textarea><br><button onclick="copyText8()">COPY</button></td>
+                    <td><textarea id="my-text9">💔</textarea><br><button onclick="copyText9()">COPY</button></td>
+                    <td><textarea id="my-text10">💟</textarea><br><button onclick="copyText10()">COPY</button></td>
+                    <td><textarea id="my-text11">💕</textarea><br><button onclick="copyText11()">COPY</button></td>
+                    <td><textarea id="my-text12">💖</textarea><br><button onclick="copyText12()">COPY</button></td>
+                    <td><textarea id="my-text13">💘</textarea><br><button onclick="copyText13()">COPY</button></td>
+                    <td><textarea id="my-text14">💝</textarea><br><button onclick="copyText14()">COPY</button></td>
+                    <td><textarea id="my-text15">💞</textarea><br><button onclick="copyText15()">COPY</button></td></tr> 
+
+                    <tr>
+                    <td><textarea id="my-text16">🂡</textarea><br><button onclick="copyText16()">COPY</button></td>              
+                    <td><textarea id="my-text17">🂢</textarea><br><button onclick="copyText17()">COPY</button></td>          
+                    <td><textarea id="my-text18">🂣</textarea><br><button onclick="copyText18()">COPY</button></td>          
+                    <td><textarea id="my-text19">🂤</textarea><br><button onclick="copyText19()">COPY</button></td>                  
+                    <td><textarea id="my-text20">🂥</textarea><br><button onclick="copyText20()">COPY</button></td>     
+                    <td><textarea id="my-text21">🂦</textarea><br><button onclick="copyText21()">COPY</button></td>     
+                    <td><textarea id="my-text22">🂧</textarea><br><button onclick="copyText22()">COPY</button></td>
+                    <td><textarea id="my-text23">🂨</textarea><br><button onclick="copyText23()">COPY</button></td>
+                    <td><textarea id="my-text24">🂩</textarea><br><button onclick="copyText24()">COPY</button></td>
+                    <td><textarea id="my-text25">🂪</textarea><br><button onclick="copyText25()">COPY</button></td>
+                    <td><textarea id="my-text26">🂫</textarea><br><button onclick="copyText26()">COPY</button></td>
+                    <td><textarea id="my-text27">🂬</textarea><br><button onclick="copyText27()">COPY</button></td>
+                    <td><textarea id="my-text28">🂭</textarea><br><button onclick="copyText28()">COPY</button></td>
+                    <td><textarea id="my-text29">🂮</textarea><br><button onclick="copyText29()">COPY</button></td>
+                    <td><textarea id="my-text30">🂿</textarea><br><button onclick="copyText30()">COPY</button></td></tr>
+    
+                    <tr>
+                    <td><textarea id="my-text31">🂱</textarea><br><button onclick="copyText31()">COPY</button></td>
+                    <td><textarea id="my-text32">🂲</textarea><br><button onclick="copyText32()">COPY</button></td>
+                    <td><textarea id="my-text33">🂳</textarea><br><button onclick="copyText33()">COPY</button></td>
+                    <td><textarea id="my-text34">🂴</textarea><br><button onclick="copyText34()">COPY</button></td>
+                    <td><textarea id="my-text35">🂵</textarea><br><button onclick="copyText35()">COPY</button></td>
+                    <td><textarea id="my-text36">🂶</textarea><br><button onclick="copyText36()">COPY</button></td>
+                    <td><textarea id="my-text37">🂷</textarea><br><button onclick="copyText37()">COPY</button></td>
+                    <td><textarea id="my-text38">🂸</textarea><br><button onclick="copyText38()">COPY</button></td>
+                    <td><textarea id="my-text39">🂹</textarea><br><button onclick="copyText39()">COPY</button></td>
+                    <td><textarea id="my-text40">🂺</textarea><br><button onclick="copyText40()">COPY</button></td>
+                    <td><textarea id="my-text41">🂻</textarea><br><button onclick="copyText41()">COPY</button></td>
+                    <td><textarea id="my-text42">🂼</textarea><br><button onclick="copyText42()">COPY</button></td>
+                    <td><textarea id="my-text43">🂽</textarea><br><button onclick="copyText43()">COPY</button></td>
+                    <td><textarea id="my-text44">🂾</textarea><br><button onclick="copyText44()">COPY</button></td>
+                    <td><textarea id="my-text45">🃏</textarea><br><button onclick="copyText45()">COPY</button></td></tr>
+    
+                    <tr>
+                    <td><textarea id="my-text46">🃁</textarea><br><button onclick="copyText46()">COPY</button></td>
+                    <td><textarea id="my-text47">🃂</textarea><br><button onclick="copyText47()">COPY</button></td>
+                    <td><textarea id="my-text48">🃃</textarea><br><button onclick="copyText48()">COPY</button></td>
+                    <td><textarea id="my-text49">🃄</textarea><br><button onclick="copyText49()">COPY</button></td>
+                    <td><textarea id="my-text50">🃅</textarea><br><button onclick="copyText50()">COPY</button></td>
+                    <td><textarea id="my-text51">🃆</textarea><br><button onclick="copyText51()">COPY</button></td>
+                    <td><textarea id="my-text52">🃇</textarea><br><button onclick="copyText52()">COPY</button></td>
+                    <td><textarea id="my-text53">🃈</textarea><br><button onclick="copyText53()">COPY</button></td>
+                    <td><textarea id="my-text54">🃉</textarea><br><button onclick="copyText54()">COPY</button></td>
+                    <td><textarea id="my-text55">🃊</textarea><br><button onclick="copyText55()">COPY</button></td>
+                    <td><textarea id="my-text56">🃋</textarea><br><button onclick="copyText56()">COPY</button></td>
+                    <td><textarea id="my-text57">🃌</textarea><br><button onclick="copyText57()">COPY</button></td>
+                    <td><textarea id="my-text58">🃍</textarea><br><button onclick="copyText58()">COPY</button></td>
+                    <td><textarea id="my-text59">🃎</textarea><br><button onclick="copyText59()">COPY</button></td>
+                    <td><textarea id="my-text60">🃟</textarea><br><button onclick="copyText60()">COPY</button></td></tr>
+    
+                    <tr>
+                    <td><textarea id="my-text61">🃑</textarea><br><button onclick="copyText61()">COPY</button></td>
+                    <td><textarea id="my-text62">🃒</textarea><br><button onclick="copyText62()">COPY</button></td>
+                    <td><textarea id="my-text63">🃓</textarea><br><button onclick="copyText63()">COPY</button></td>
+                    <td><textarea id="my-text64">🃔</textarea><br><button onclick="copyText64()">COPY</button></td>
+                    <td><textarea id="my-text65">🃕</textarea><br><button onclick="copyText65()">COPY</button></td>
+                    <td><textarea id="my-text66">🃖</textarea><br><button onclick="copyText66()">COPY</button></td>
+                    <td><textarea id="my-text67">🃗</textarea><br><button onclick="copyText67()">COPY</button></td>
+                    <td><textarea id="my-text68">🃘</textarea><br><button onclick="copyText68()">COPY</button></td>
+                    <td><textarea id="my-text69">🃙</textarea><br><button onclick="copyText69()">COPY</button></td>
+                    <td><textarea id="my-text70">🃚</textarea><br><button onclick="copyText70()">COPY</button></td>
+                    <td><textarea id="my-text71">🃛</textarea><br><button onclick="copyText71()">COPY</button></td>
+                    <td><textarea id="my-text72">🃜</textarea><br><button onclick="copyText72()">COPY</button></td>
+                    <td><textarea id="my-text73">🃝</textarea><br><button onclick="copyText73()">COPY</button></td>
+                    <td><textarea id="my-text74">🃞</textarea><br><button onclick="copyText74()">COPY</button></td>
+                    <td><textarea id="my-text75">🃠</textarea><br><button onclick="copyText75()">COPY</button></td></tr>
+            
+            
+                </tbody>
+            </table>
+
+          
+
+        </div>
+        <script>
+
+            /*하트티콘 스크립트*/
+
+            function copyText1(){
+                var origin = document.getElementById("my-text1")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText2(){
+                var origin = document.getElementById("my-text2")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText3(){
+                var origin = document.getElementById("my-text3")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText4(){
+                var origin = document.getElementById("my-text4")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText5(){
+                var origin = document.getElementById("my-text5")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText6(){
+                var origin = document.getElementById("my-text6")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText7(){
+                var origin = document.getElementById("my-text7")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText8(){
+                var origin = document.getElementById("my-text8")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText9(){
+                var origin = document.getElementById("my-text9")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText10(){
+                var origin = document.getElementById("my-text10")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText11(){
+                var origin = document.getElementById("my-text11")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText12(){
+                var origin = document.getElementById("my-text12")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText13(){
+                var origin = document.getElementById("my-text13")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText14(){
+                var origin = document.getElementById("my-text14")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText15(){
+                var origin = document.getElementById("my-text15")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+
+            /*카드티콘 스크립트*/
+
+            function copyText16(){
+                var origin = document.getElementById("my-text16")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText17(){
+                var origin = document.getElementById("my-text17")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText18(){
+                var origin = document.getElementById("my-text18")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText19(){
+                var origin = document.getElementById("my-text19")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText20(){
+                var origin = document.getElementById("my-text20")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText21(){
+                var origin = document.getElementById("my-text21")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText22(){
+                var origin = document.getElementById("my-text22")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText23(){
+                var origin = document.getElementById("my-text23")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText24(){
+                var origin = document.getElementById("my-text24")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText25(){
+                var origin = document.getElementById("my-text25")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText26(){
+                var origin = document.getElementById("my-text26")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText27(){
+                var origin = document.getElementById("my-text27")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText28(){
+                var origin = document.getElementById("my-text28")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText29(){
+                var origin = document.getElementById("my-text29")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText30(){
+                var origin = document.getElementById("my-text30")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText31(){
+                var origin = document.getElementById("my-text31")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText32(){
+                var origin = document.getElementById("my-text32")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText33(){
+                var origin = document.getElementById("my-text33")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText34(){
+                var origin = document.getElementById("my-text34")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText35(){
+                var origin = document.getElementById("my-text35")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText36(){
+                var origin = document.getElementById("my-text36")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText37(){
+                var origin = document.getElementById("my-text37")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText38(){
+                var origin = document.getElementById("my-text38")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText39(){
+                var origin = document.getElementById("my-text39")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText40(){
+                var origin = document.getElementById("my-text40")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText41(){
+                var origin = document.getElementById("my-text41")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText42(){
+                var origin = document.getElementById("my-text42")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText43(){
+                var origin = document.getElementById("my-text43")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText44(){
+                var origin = document.getElementById("my-text44")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText45(){
+                var origin = document.getElementById("my-text45")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText46(){
+                var origin = document.getElementById("my-text46")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText47(){
+                var origin = document.getElementById("my-text47")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText48(){
+                var origin = document.getElementById("my-text48")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText49(){
+                var origin = document.getElementById("my-text49")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText50(){
+                var origin = document.getElementById("my-text50")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText51(){
+                var origin = document.getElementById("my-text51")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText52(){
+                var origin = document.getElementById("my-text52")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText53(){
+                var origin = document.getElementById("my-text53")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText54(){
+                var origin = document.getElementById("my-text54")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText55(){
+                var origin = document.getElementById("my-text55")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText56(){
+                var origin = document.getElementById("my-text56")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText57(){
+                var origin = document.getElementById("my-text57")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText58(){
+                var origin = document.getElementById("my-text58")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText59(){
+                var origin = document.getElementById("my-text59")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText60(){
+                var origin = document.getElementById("my-text60")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+            function copyText61(){
+                var origin = document.getElementById("my-text61")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText62(){
+                var origin = document.getElementById("my-text62")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText63(){
+                var origin = document.getElementById("my-text63")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText64(){
+                var origin = document.getElementById("my-text64")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText65(){
+                var origin = document.getElementById("my-text65")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText66(){
+                var origin = document.getElementById("my-text66")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText67(){
+                var origin = document.getElementById("my-text67")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText68(){
+                var origin = document.getElementById("my-text68")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText69(){
+                var origin = document.getElementById("my-text69")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText70(){
+                var origin = document.getElementById("my-text70")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText71(){
+                var origin = document.getElementById("my-text71")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText72(){
+                var origin = document.getElementById("my-text72")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText73(){
+                var origin = document.getElementById("my-text73")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText74(){
+                var origin = document.getElementById("my-text74")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+            function copyText75(){
+                var origin = document.getElementById("my-text65")
+                origin.select() 
+                document.execCommand('copy')
+                alert("copied!")
+            }
+
+
+        </script>
+
+        <br><br><br>
+        <div class="contents">contents</div>
+       
+    </div>
+</body>
+</html>
