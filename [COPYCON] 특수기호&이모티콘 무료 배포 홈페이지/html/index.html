@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <link rel="stylesheet" href="../css/mytext.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
@@ -8,9 +9,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="../img/hat.ico"> <!-- 파비콘 삽입 코드-->
 
     <meta charset="UTF-8">
-    <title>COPYCONଈ</title>
+    <title>COPYCON</title>
     <style>
-        body {background: white;}
+        
+        body {background: ivory;}
         #wrap {width: 1000px; height: 900px; margin: 0 auto; font-size: 40px; color: #fff; text-align: center; text-transform: uppercase;}
         
         .header{
@@ -24,8 +26,7 @@
             border-radius: 15px;
         }
         
-        .contents {float: left; width: 1200px; height: 600px; line-height: 300px; border: 2px solid burlywood; border-radius:15px; background-color: whitesmoke;}
-        
+       
         
         
         textarea{
@@ -46,36 +47,35 @@
 <body>
     
     <div id="wrap">
-        <div class="banner" style="font-size: 20px; color:rgb(194, 165, 123); text-align: left;"><h2>COPYCONଈ</h2></div>
-           
+        <div class="banner" style="font-size: 20px; color:rgb(194, 165, 123); text-align: left;"><h2>COPYCONଈ</h2></div><br><br>
+      
+        
+            <ol>
+                <strong><h3>주의 및 이용방법</h3></strong>
+                COPY를 누르면 복사가 됩니다!<br>
+                이모지는 모바일 기준으로 존재 유/무가 갈리기 때문에 유의바랍니다.<br> 
+                모바일 전용이기 때문에 PC에서는 보여지는 것과 다른 이모티콘과 이모지가 존재합니다.<br>                
+                ଈ 모양을 누르면 메뉴가 다음페이지로 넘어갑니다. 다양하고 예쁜 특수기호와 이모티콘 그리고 이모지를 만나보세요!
+            </ol><br>
+       
+        
+
             <input type="radio" name="tabmenu" id="tab01" checked>
-                            <label for="tab01">ଈ</label>
-                            <input type="radio" name="tabmenu"  id="tab02">
-                            <label for="tab02">ଈ</label>
-                            <input type="radio" name="tabmenu" id="tab03">
-                            <label for="tab03">ଈ</label>
-                            <input type="radio" name="tabmenu" id="tab04">
-                            <label for="tab04">ଈ</label>
+            <label for="tab01">ଈ</label>
+            <input type="radio" name="tabmenu"  id="tab02">
+            <label for="tab02">ଈ</label>
+            <input type="radio" name="tabmenu" id="tab03">
+            <label for="tab03">ଈ</label>
+           
 
-                            <style>
-                                input[type="radio"] {display: none;}
-                                input[type="radio"] + label {display: inline-block; padding: 10px; background: none; color:rgb(194, 165, 123); font-size: 14px; cursor: pointer; font-size: 30px;} 
-                                input[type="radio"]:checked + label {background: none; color: red;}
-                    
-                                .conbox {padding: 10; background: none; margin:0 auto; display: none;}
-                    
-                                input[id="tab01"]:checked ~ .con1 {display:block;}
-                                input[id="tab02"]:checked ~ .con2 {display:block;}
-                                input[id="tab03"]:checked ~ .con3 {display:block;}
-                                input[id="tab04"]:checked ~ .con4 {display:block;}
-
-                            </style>
+            
+                            
        
 
         <!--TAB1 (첫번째 탭메뉴 화면) HTML-->
         <div class="conbox con1">
-
-                    <table class="emoticon" align="center">
+           
+                    <table class="emoticon my-3 col-lg-6 col-md-8 co-sm-10 col-12 mx-auto" align="center">
 
                         <thead>
                         
@@ -171,8 +171,8 @@
 
 
                             <tr>
-                                <td><textarea id="my-text76">♥</textarea><br><button onclick="copyText76()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                                <td><textarea id="my-text77">♡</textarea><br><button onclick="copyText77()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text76" style="font-size: 16px;">♥</textarea><br><button onclick="copyText76()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text77" style="font-size: 16px;">♡</textarea><br><button onclick="copyText77()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
                                 <td><textarea id="my-text78">♡⃛</textarea><br><button onclick="copyText78()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
                                 <td><textarea id="my-text79">❦</textarea><br><button onclick="copyText79()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
                                 <td><textarea id="my-text80">☭</textarea><br><button onclick="copyText80()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
@@ -187,130 +187,36 @@
                                 <td><textarea id="my-text89">🕭</textarea><br><button onclick="copyText89()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
                                 <td><textarea id="my-text90">☘︎</textarea><br><button onclick="copyText90()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
                     
+                                <style>
+                                    button{
+                                        background-color: whitesmoke;
+                                        color: rgb(194, 165, 123);
+                                        font-size:14px;
+                                        border: none;
+                                        font-family:Georgia, 'Times New Roman', Times, serif;
+                                    }
+
+                                    .emoticon{
+                                                font-size: 10px;
+                                    
+                                                width: 900px; 
+                                                height: 700px; 
+                                                background-color: whitesmoke;
+                                                text-align: center;
+                                                border: 2px solid burlywood;
+                                                border-radius: 15px;
+
+
+                                    }
+                                </style>
+
+                                
+                                    
+                            
                     
                         </tbody>
 
-                    <style>
-                              
-                       
-                                           
-                        #my-text1{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text2{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text3{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text4{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text5{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text6{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text7{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text8{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text9{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text10{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text11{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text12{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text13{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text14{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text15{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text16{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text17{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text18{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text19{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text20{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text21{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text22{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text23{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text24{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text25{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text26{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text27{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text28{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text29{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text30{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                        #my-text31{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text32{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text33{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text34{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text35{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text36{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text37{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text38{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text39{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text40{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text41{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text42{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text43{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text44{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text45{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                        #my-text46{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text47{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text48{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text49{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text50{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text51{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text52{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text53{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text54{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text55{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text56{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text57{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text58{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text59{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text60{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                        #my-text61{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text62{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text63{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text64{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text65{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text66{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text67{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text68{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text69{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text70{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text71{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text72{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text73{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text74{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text75{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                        #my-text76{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text77{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text78{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text79{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text80{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text81{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text82{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text83{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text84{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text85{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text86{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text87{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text88{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text89{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                        #my-text90{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                        button{
-                            background-color: whitesmoke;
-                            color: rgb(194, 165, 123);
-                            font-size:17px;
-                            border: none;
-                            font-family:Georgia, 'Times New Roman', Times, serif;
-                        }
-
-                        .emoticon{
-                                    font-size: 10px;
-                           
-                                    width: 900px; 
-                                    height: 700px; 
-                                    background-color: whitesmoke;
-                                    text-align: center;
-                                    border: 2px solid burlywood;
-                                    border-radius: 15px;
-                        
-                        
-                        }
-        
-                    </style>
+                    
                 </table>
             </div>
 
@@ -318,7 +224,7 @@
             <div class="conbox con2">
 
                 
-                <table class="emoticon" align="center">
+                <table class="emoticon my-3 col-lg-6 col-md-8 co-sm-10 col-12 mx-auto" align="center">
 
                     <thead>
                     
@@ -326,1424 +232,289 @@
                     </thead>
                     
                     <tbody>
+                        <tr>
+                            <td><textarea id="my-text91">🎵</textarea><br><button onclick="copyText91()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>              
+                            <td><textarea id="my-text92">🎶</textarea><br><button onclick="copyText92()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                            <td><textarea id="my-text93">🎼</textarea><br><button onclick="copyText93()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                            <td><textarea id="my-text94">🎹</textarea><br><button onclick="copyText94()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>                  
+                            <td><textarea id="my-text95">🎷</textarea><br><button onclick="copyText95()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                            <td><textarea id="my-text96">🎸</textarea><br><button onclick="copyText96()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                            <td><textarea id="my-text97">🎺</textarea><br><button onclick="copyText97()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text98">🥁</textarea><br><button onclick="copyText98()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text99">🎤</textarea><br><button onclick="copyText99()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text100">🎧</textarea><br><button onclick="copyText100()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text101">📻</textarea><br><button onclick="copyText101()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text102">ᵔᴥᵔ</textarea><br><button onclick="copyText102()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text103">ˁ῁̭ˀ</textarea><br><button onclick="copyText103()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text104">☹</textarea><br><button onclick="copyText104()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text105">⍨⃝</textarea><br><button onclick="copyText105()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr> 
+    
+                            <tr>
+                            <td><textarea id="my-text106">⍢⃝</textarea><br><button onclick="copyText106()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>              
+                            <td><textarea id="my-text107">⍤⃝</textarea><br><button onclick="copyText107()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                            <td><textarea id="my-text108">✡</textarea><br><button onclick="copyText108()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                            <td><textarea id="my-text109">✬</textarea><br><button onclick="copyText109()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>                  
+                            <td><textarea id="my-text110">⚝</textarea><br><button onclick="copyText110()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                            <td><textarea id="my-text111">❀</textarea><br><button onclick="copyText111()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                            <td><textarea id="my-text112">✿</textarea><br><button onclick="copyText112()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text113">❆</textarea><br><button onclick="copyText113()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text114">❊</textarea><br><button onclick="copyText114()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text115">❉</textarea><br><button onclick="copyText115()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text116">❇</textarea><br><button onclick="copyText116()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text117">🎕</textarea><br><button onclick="copyText117()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text118">⁎</textarea><br><button onclick="copyText118()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text119">⁑</textarea><br><button onclick="copyText119()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text120">🗲</textarea><br><button onclick="copyText120()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+            
+                            <tr>
+                            <td><textarea id="my-text121">☊</textarea><br><button onclick="copyText121()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text122">⌨</textarea><br><button onclick="copyText122()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text123">𓆩❦</textarea><br><button onclick="copyText123()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text124">𓍯</textarea><br><button onclick="copyText124()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text125" style="font-size: 16px;">ꕤ</textarea><br><button onclick="copyText125()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text126">ও</textarea><br><button onclick="copyText126()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text127">︠♥︡</textarea><br><button onclick="copyText127()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text128">☠</textarea><br><button onclick="copyText128()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text129">⚚</textarea><br><button onclick="copyText129()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text130">☣</textarea><br><button onclick="copyText130()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text131">☯</textarea><br><button onclick="copyText131()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text132">☭</textarea><br><button onclick="copyText132()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text133">⍥</textarea><br><button onclick="copyText133()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text134">ꆜ</textarea><br><button onclick="copyText134()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text135">ꆛ</textarea><br><button onclick="copyText135()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+            
+                            <tr>
+                            <td><textarea id="my-text136">⏱</textarea><br><button onclick="copyText136()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text137" style="font-size: 16px;">×͜×</textarea><br><button onclick="copyText137()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif;">COPY</button></td>
+                            <td><textarea id="my-text138" style="font-size: 16px;">(ꔷ̥̑.̮ꔷ̥̑)</textarea><br><button onclick="copyText138()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text139" style="font-size: 14px;">꒰⍨꒱</textarea><br><button onclick="copyText139()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text140" style="font-size: 14px;">꒰⍤꒱</textarea><br><button onclick="copyText140()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text141" style="font-size: 12px;">꒰⍥꒱</textarea><br><button onclick="copyText141()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text142">დ</textarea><br><button onclick="copyText142()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text143">🎔</textarea><br><button onclick="copyText143()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text144" style="font-size: 16px;">ဣ</textarea><br><button onclick="copyText144()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text145">ӫ</textarea><br><button onclick="copyText145()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text146">⍢</textarea><br><button onclick="copyText146()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text147">⍣</textarea><br><button onclick="copyText147()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text148">Ӫ</textarea><br><button onclick="copyText148()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text149">ᐵ</textarea><br><button onclick="copyText149()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text150">➛</textarea><br><button onclick="copyText150()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+            
+                            <tr>
+                            <td><textarea id="my-text151">🜸</textarea><br><button onclick="copyText151()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text152">🜚</textarea><br><button onclick="copyText152()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text153">✎</textarea><br><button onclick="copyText153()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text154">✏</textarea><br><button onclick="copyText154()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text155">✐</textarea><br><button onclick="copyText155()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text156">🗡</textarea><br><button onclick="copyText156()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text157">੨</textarea><br><button onclick="copyText157()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text158">੩</textarea><br><button onclick="copyText158()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text159">𓍊𓋼</textarea><br><button onclick="copyText159()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text160">𓋼𓍊</textarea><br><button onclick="copyText160()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text161">⚜</textarea><br><button onclick="copyText161()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text162" style="font-size: 13px;">꧖ꦿꦸ</textarea><br><button onclick="copyText162()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif;">COPY</button></td>
+                            <td><textarea id="my-text163">ᙙᙖ</textarea><br><button onclick="copyText163()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text164">ઇଓ</textarea><br><button onclick="copyText164()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text165">ପଓ</textarea><br><button onclick="copyText165()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+    
+    
+                            <tr>
+                                <td><textarea id="my-text166" style="font-size: 16px;">ꔫ</textarea><br><button onclick="copyText166()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text167" style="font-size: 14px;">ˁ῁̭ˀ</textarea><br><button onclick="copyText167()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text168" style="font-size: 14px;">ˁ῁̮ˀ</textarea><br><button onclick="copyText168()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text169" style="font-size: 14px;">ˁ῁̱ˀ</textarea><br><button onclick="copyText169()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text170" style="font-size: 14px;">ˁ῁̥ˀ</textarea><br><button onclick="copyText170()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text171" style="font-size: 14px;">ˁ῁̼ˀ</textarea><br><button onclick="copyText171()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text172" style="font-size: 14px;">ˁ῁̩ˀ</textarea><br><button onclick="copyText172()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text173" style="font-size: 14px;">ˁ῁̬ˀ</textarea><br><button onclick="copyText173()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text174" style="font-size: 14px;">ˁ῁̯ˀ</textarea><br><button onclick="copyText174()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text175" style="font-size: 14px;">ˁ῁̰ˀ</textarea><br><button onclick="copyText175()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text176" style="font-size: 14px;">ˁ῁͓ˀ</textarea><br><button onclick="copyText176()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text177" style="font-size: 8px;">⎝⍢⎠</textarea><br><button onclick="copyText177()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text178" style="font-size: 8px;">⎝ᑒ⎠</textarea><br><button onclick="copyText178()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text179" style="font-size: 8px;">⎝⍥⎠</textarea><br><button onclick="copyText179()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                                <td><textarea id="my-text180" style="font-size: 8px;">⎝㋡⎠</textarea><br><button onclick="copyText180()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>                      
+                    </tbody>   
 
-                        <tr>
-                        <td><textarea id="my-text91">🎵</textarea><br><button onclick="copyText91()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>              
-                        <td><textarea id="my-text92">🎶</textarea><br><button onclick="copyText92()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
-                        <td><textarea id="my-text93">🎼</textarea><br><button onclick="copyText93()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
-                        <td><textarea id="my-text94">🎹</textarea><br><button onclick="copyText94()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>                  
-                        <td><textarea id="my-text95">🎷</textarea><br><button onclick="copyText95()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
-                        <td><textarea id="my-text96">🎸</textarea><br><button onclick="copyText96()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
-                        <td><textarea id="my-text97">🎺</textarea><br><button onclick="copyText97()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text98">🥁</textarea><br><button onclick="copyText98()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text99">🎤</textarea><br><button onclick="copyText99()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text100">🎧</textarea><br><button onclick="copyText100()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text101">📻</textarea><br><button onclick="copyText101()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text102">ᵔᴥᵔ</textarea><br><button onclick="copyText102()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text103">ˁ῁̭ˀ</textarea><br><button onclick="copyText103()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text104">☹</textarea><br><button onclick="copyText104()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text105">⍨⃝</textarea><br><button onclick="copyText105()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr> 
+                    <style>
+                        button{
+                            background-color: whitesmoke;
+                            color: rgb(194, 165, 123);
+                            font-size:14px;
+                            border: none;
+                            font-family:Georgia, 'Times New Roman', Times, serif;
+                        }
 
-                        <tr>
-                        <td><textarea id="my-text106">⍢⃝</textarea><br><button onclick="copyText106()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>              
-                        <td><textarea id="my-text107">⍤⃝</textarea><br><button onclick="copyText107()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
-                        <td><textarea id="my-text108">✡</textarea><br><button onclick="copyText108()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
-                        <td><textarea id="my-text109">✬</textarea><br><button onclick="copyText109()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>                  
-                        <td><textarea id="my-text110">⚝</textarea><br><button onclick="copyText110()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
-                        <td><textarea id="my-text111">❀</textarea><br><button onclick="copyText111()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
-                        <td><textarea id="my-text112">✿</textarea><br><button onclick="copyText112()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text113">❆</textarea><br><button onclick="copyText113()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text114">❊</textarea><br><button onclick="copyText114()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text115">❉</textarea><br><button onclick="copyText115()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text116">❇</textarea><br><button onclick="copyText116()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text117">🎕</textarea><br><button onclick="copyText117()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text118">⁎</textarea><br><button onclick="copyText118()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text119">⁑</textarea><br><button onclick="copyText119()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text120">🗲</textarea><br><button onclick="copyText120()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
-        
-                        <tr>
-                        <td><textarea id="my-text121">☊</textarea><br><button onclick="copyText121()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text122">⌨</textarea><br><button onclick="copyText122()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text123">𓆩❦</textarea><br><button onclick="copyText123()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text124">𓍯</textarea><br><button onclick="copyText124()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text125">ꕤ</textarea><br><button onclick="copyText125()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text126">ও</textarea><br><button onclick="copyText126()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text127">︠♥︡</textarea><br><button onclick="copyText127()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text128">☠</textarea><br><button onclick="copyText128()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text129">⚚</textarea><br><button onclick="copyText129()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text130">☣</textarea><br><button onclick="copyText130()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text131">☯</textarea><br><button onclick="copyText131()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text132">☭</textarea><br><button onclick="copyText132()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text133">⍥</textarea><br><button onclick="copyText133()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text134">ꆜ</textarea><br><button onclick="copyText134()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text135">ꆛ</textarea><br><button onclick="copyText135()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
-        
-                        <tr>
-                        <td><textarea id="my-text136">⌒̎</textarea><br><button onclick="copyText136()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text137">×͜×</textarea><br><button onclick="copyText137()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text138">(ꔷ̥̑.̮ꔷ̥̑)</textarea><br><button onclick="copyText138()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text139">꒰⍨꒱</textarea><br><button onclick="copyText139()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text140">꒰⍤꒱</textarea><br><button onclick="copyText140()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text141">꒰⍥꒱</textarea><br><button onclick="copyText141()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text142">დ</textarea><br><button onclick="copyText142()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text143">🎔</textarea><br><button onclick="copyText143()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text144">ဣ</textarea><br><button onclick="copyText144()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text145">🃊</textarea><br><button onclick="copyText145()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text146">🃋</textarea><br><button onclick="copyText146()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text147">🃌</textarea><br><button onclick="copyText147()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text148">🃍</textarea><br><button onclick="copyText148()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text149">🃎</textarea><br><button onclick="copyText149()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text150">🃟</textarea><br><button onclick="copyText150()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
-        
-                        <tr>
-                        <td><textarea id="my-text151">🃑</textarea><br><button onclick="copyText151()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text152">🃒</textarea><br><button onclick="copyText152()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text153">🃓</textarea><br><button onclick="copyText153()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text154">🃔</textarea><br><button onclick="copyText154()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text155">🃕</textarea><br><button onclick="copyText155()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text156">🃖</textarea><br><button onclick="copyText156()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text157">🃗</textarea><br><button onclick="copyText157()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text158">🃘</textarea><br><button onclick="copyText158()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text159">🃙</textarea><br><button onclick="copyText159()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text160">🃚</textarea><br><button onclick="copyText160()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text161">🃛</textarea><br><button onclick="copyText161()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text162">🃜</textarea><br><button onclick="copyText162()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text163">🃝</textarea><br><button onclick="copyText163()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text164">🃞</textarea><br><button onclick="copyText164()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                        <td><textarea id="my-text165">🃠</textarea><br><button onclick="copyText165()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+                        .emoticon{
+                                    font-size: 10px;
+                        
+                                    width: 900px; 
+                                    height: 700px; 
+                                    background-color: whitesmoke;
+                                    text-align: center;
+                                    border: 2px solid burlywood;
+                                    border-radius: 15px;
 
 
-                        <tr>
-                            <td><textarea id="my-text166">♥</textarea><br><button onclick="copyText166()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text167">♡</textarea><br><button onclick="copyText167()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text168">♡⃛</textarea><br><button onclick="copyText168()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text169">❦</textarea><br><button onclick="copyText169()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text170">☭</textarea><br><button onclick="copyText170()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text171">☪</textarea><br><button onclick="copyText171()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text172">☣</textarea><br><button onclick="copyText172()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text173">☃</textarea><br><button onclick="copyText173()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text174">⛄︎</textarea><br><button onclick="copyText174()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text175">⛇</textarea><br><button onclick="copyText175()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text176">✉</textarea><br><button onclick="copyText176()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text177">ଈ</textarea><br><button onclick="copyText177()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text178">✄</textarea><br><button onclick="copyText178()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text179">🕭</textarea><br><button onclick="copyText179()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
-                            <td><textarea id="my-text180">☘︎</textarea><br><button onclick="copyText180()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+                        }
+                    </style>
+            </table>
+        </div>
+
+        <div class="conbox con3">
+
                 
+            <table class="emoticon my-3 col-lg-6 col-md-8 co-sm-10 col-12 mx-auto" align="center">
+
+                <thead>
                 
-                    </tbody>
+            
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><textarea id="my-text181" style="font-size: 16px;">𓊆♡︎𓊇</textarea><br><button onclick="copyText181()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>              
+                        <td><textarea id="my-text182">☂</textarea><br><button onclick="copyText182()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                        <td><textarea id="my-text183">♔</textarea><br><button onclick="copyText183()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                        <td><textarea id="my-text184">♕</textarea><br><button onclick="copyText184()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>                  
+                        <td><textarea id="my-text185">♖</textarea><br><button onclick="copyText185()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                        <td><textarea id="my-text186">♗</textarea><br><button onclick="copyText186()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                        <td><textarea id="my-text187">♘</textarea><br><button onclick="copyText187()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text188">♙</textarea><br><button onclick="copyText188()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text189">♚</textarea><br><button onclick="copyText189()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text190">♛</textarea><br><button onclick="copyText190()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text191">♜</textarea><br><button onclick="copyText191()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text192">♝</textarea><br><button onclick="copyText192()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text193">♞</textarea><br><button onclick="copyText193()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text194">♟︎</textarea><br><button onclick="copyText194()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text195">🦨</textarea><br><button onclick="copyText195()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr> 
+
+                        <tr>
+                        <td><textarea id="my-text196">🐥</textarea><br><button onclick="copyText196()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>              
+                        <td><textarea id="my-text197">🐤</textarea><br><button onclick="copyText197()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                        <td><textarea id="my-text198">🐣</textarea><br><button onclick="copyText198()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>          
+                        <td><textarea id="my-text199">🐇</textarea><br><button onclick="copyText199()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>                  
+                        <td><textarea id="my-text200">🦢</textarea><br><button onclick="copyText200()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                        <td><textarea id="my-text201">🦍</textarea><br><button onclick="copyText201()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>     
+                        <td><textarea id="my-text202">🦘</textarea><br><button onclick="copyText202()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text203">🐧</textarea><br><button onclick="copyText203()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text204">🐩</textarea><br><button onclick="copyText204()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text205">🐕</textarea><br><button onclick="copyText205()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text206">🐿️</textarea><br><button onclick="copyText206()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text207">🦔</textarea><br><button onclick="copyText207()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text208">🐓</textarea><br><button onclick="copyText208()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text209">🦃</textarea><br><button onclick="copyText209()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text210">🦉</textarea><br><button onclick="copyText210()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+        
+                        <tr>
+                        <td><textarea id="my-text211">🦅</textarea><br><button onclick="copyText211()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text212">🦆</textarea><br><button onclick="copyText212()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text213">🐊</textarea><br><button onclick="copyText213()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text214">🐢</textarea><br><button onclick="copyText214()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text215">🦎</textarea><br><button onclick="copyText215()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text216">🦖</textarea><br><button onclick="copyText216()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text217" style="font-size: 20px;">︠🦕</textarea><br><button onclick="copyText217()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text218">🐍</textarea><br><button onclick="copyText218()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text219">🐳</textarea><br><button onclick="copyText219()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text220">🐋</textarea><br><button onclick="copyText220()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text221">🐬</textarea><br><button onclick="copyText221()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text222">🦈</textarea><br><button onclick="copyText222()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text223">🦗</textarea><br><button onclick="copyText223()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text224">🦥</textarea><br><button onclick="copyText224()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text225">🐝</textarea><br><button onclick="copyText225()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+        
+                        <tr>
+                        <td><textarea id="my-text226">🦋</textarea><br><button onclick="copyText226()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text227">🐛</textarea><br><button onclick="copyText227()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif;">COPY</button></td>
+                        <td><textarea id="my-text228">🐜</textarea><br><button onclick="copyText228()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text229">🌹</textarea><br><button onclick="copyText229()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text230">🥀</textarea><br><button onclick="copyText230()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text231">🌺</textarea><br><button onclick="copyText231()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text232">🌻</textarea><br><button onclick="copyText232()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text233">🌼</textarea><br><button onclick="copyText233()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text234">🌷</textarea><br><button onclick="copyText234()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text235">🌵</textarea><br><button onclick="copyText235()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text236">🍄</textarea><br><button onclick="copyText236()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text237">🍁</textarea><br><button onclick="copyText237()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text238">🍂</textarea><br><button onclick="copyText238()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text239">🌱</textarea><br><button onclick="copyText239()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text240">🍃</textarea><br><button onclick="copyText240()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+        
+                        <tr>
+                        <td><textarea id="my-text241">⚽</textarea><br><button onclick="copyText241()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text242">⚾</textarea><br><button onclick="copyText242()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text243">🥎</textarea><br><button onclick="copyText243()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text244">🏀</textarea><br><button onclick="copyText244()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text245">🏐</textarea><br><button onclick="copyText245()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text246">🥇</textarea><br><button onclick="copyText246()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text247">🥈</textarea><br><button onclick="copyText247()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text248">🥉</textarea><br><button onclick="copyText248()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text249">💢</textarea><br><button onclick="copyText249()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text250">💯</textarea><br><button onclick="copyText250()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text251">⚜</textarea><br><button onclick="copyText251()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text252">🤍</textarea><br><button onclick="copyText252()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif;">COPY</button></td>
+                        <td><textarea id="my-text253">💤</textarea><br><button onclick="copyText253()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text254">💬</textarea><br><button onclick="copyText254()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                        <td><textarea id="my-text255">🗨️</textarea><br><button onclick="copyText255()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>
+
+
+                        <tr>
+                            <td><textarea id="my-text256">🗿</textarea><br><button onclick="copyText256()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text257">🎈</textarea><br><button onclick="copyText257()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text258">🛫</textarea><br><button onclick="copyText258()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text259">🛬</textarea><br><button onclick="copyText259()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text260">🛩️</textarea><br><button onclick="copyText260()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text261">🎡</textarea><br><button onclick="copyText261()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text262">🎢</textarea><br><button onclick="copyText262()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text263">🎠</textarea><br><button onclick="copyText263()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text264">🚡</textarea><br><button onclick="copyText264()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text265">🚠</textarea><br><button onclick="copyText265()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text266">🚟</textarea><br><button onclick="copyText266()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text267">🚁</textarea><br><button onclick="copyText267()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text268">🪂</textarea><br><button onclick="copyText268()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text269">🏎️</textarea><br><button onclick="copyText269()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td>
+                            <td><textarea id="my-text270">⚓</textarea><br><button onclick="copyText270()" style="color:rgb(194, 165, 123); font-family:Verdana, Geneva, Tahoma, sans-serif">COPY</button></td></tr>                      
+                </tbody>
 
                 <style>
-                          
-
-                
-                    #my-text91{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text92{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text93{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text94{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text95{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text96{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text97{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text98{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text99{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text100{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text101{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text102{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text103{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text104{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text105{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-      
-                    #my-text106{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text107{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text108{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text109{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text110{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text111{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text112{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text113{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text114{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text115{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text116{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text117{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text118{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text119{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text120{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                    #my-text121{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text122{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text123{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text124{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text125{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 20px; text-align: center;}
-                    #my-text126{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text127{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text128{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text129{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text130{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text131{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text132{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text133{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text134{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text135{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                    #my-text136{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text137{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 18px; text-align: center;}
-                    #my-text138{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 16px; text-align: center;}
-                    #my-text139{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 14px; text-align: center;}
-                    #my-text140{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 15px; text-align: center;}
-                    #my-text141{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 12px; text-align: center;}
-                    #my-text142{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text143{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text144{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 16px; text-align: center;}
-                    #my-text145{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text146{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text147{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text148{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text149{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text150{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                    #my-text151{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text152{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text153{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text154{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text155{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text156{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text157{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text158{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text159{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text160{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text161{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text162{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text163{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text164{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text165{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
-                    #my-text166{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text167{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text168{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text169{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text170{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text171{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text172{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text173{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text174{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text175{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text176{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text177{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text178{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text179{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-                    #my-text180{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;}
-
                     button{
                         background-color: whitesmoke;
-                        color: black;
-                        font-size:17px;
+                        color: rgb(194, 165, 123);
+                        font-size:14px;
                         border: none;
-                        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-family:Georgia, 'Times New Roman', Times, serif;
                     }
 
                     .emoticon{
                                 font-size: 10px;
+                    
                                 width: 900px; 
                                 height: 700px; 
                                 background-color: whitesmoke;
                                 text-align: center;
                                 border: 2px solid burlywood;
                                 border-radius: 15px;
-                    
-                    
+
+
                     }
-    
                 </style>
-            </table>
-        </div>
-          
+                
+                
+        </table>
+        
+        
+    </div>
+
+    <a href="https://instagram.com/minzunkang?igshid=Zjc2ZTc4Nzk="><button type="button" style="background-color:ivory; color:rgb(194, 165, 123); font-size: 18px; text-align: center; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">DEVELOPER IG: @MINZUNKANG</button></a>
+
 
     </div>
 
-
-
-
-
-
-
-
-
-    <script>
-
-            /*tab01(첫번째 탭 화면) 스크립트*/
-         
-            function copyText1(){
-                var origin = document.getElementById("my-text1")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText2(){
-                var origin = document.getElementById("my-text2")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText3(){
-                var origin = document.getElementById("my-text3")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText4(){
-                var origin = document.getElementById("my-text4")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText5(){
-                var origin = document.getElementById("my-text5")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText6(){
-                var origin = document.getElementById("my-text6")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText7(){
-                var origin = document.getElementById("my-text7")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText8(){
-                var origin = document.getElementById("my-text8")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText9(){
-                var origin = document.getElementById("my-text9")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText10(){
-                var origin = document.getElementById("my-text10")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText11(){
-                var origin = document.getElementById("my-text11")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText12(){
-                var origin = document.getElementById("my-text12")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText13(){
-                var origin = document.getElementById("my-text13")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText14(){
-                var origin = document.getElementById("my-text14")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText15(){
-                var origin = document.getElementById("my-text15")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText16(){
-                var origin = document.getElementById("my-text16")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText17(){
-                var origin = document.getElementById("my-text17")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText18(){
-                var origin = document.getElementById("my-text18")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText19(){
-                var origin = document.getElementById("my-text19")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText20(){
-                var origin = document.getElementById("my-text20")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText21(){
-                var origin = document.getElementById("my-text21")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText22(){
-                var origin = document.getElementById("my-text22")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText23(){
-                var origin = document.getElementById("my-text23")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText24(){
-                var origin = document.getElementById("my-text24")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText25(){
-                var origin = document.getElementById("my-text25")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText26(){
-                var origin = document.getElementById("my-text26")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText27(){
-                var origin = document.getElementById("my-text27")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText28(){
-                var origin = document.getElementById("my-text28")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText29(){
-                var origin = document.getElementById("my-text29")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText30(){
-                var origin = document.getElementById("my-text30")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText31(){
-                var origin = document.getElementById("my-text31")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText32(){
-                var origin = document.getElementById("my-text32")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText33(){
-                var origin = document.getElementById("my-text33")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText34(){
-                var origin = document.getElementById("my-text34")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText35(){
-                var origin = document.getElementById("my-text35")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText36(){
-                var origin = document.getElementById("my-text36")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText37(){
-                var origin = document.getElementById("my-text37")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText38(){
-                var origin = document.getElementById("my-text38")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText39(){
-                var origin = document.getElementById("my-text39")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText40(){
-                var origin = document.getElementById("my-text40")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText41(){
-                var origin = document.getElementById("my-text41")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText42(){
-                var origin = document.getElementById("my-text42")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText43(){
-                var origin = document.getElementById("my-text43")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText44(){
-                var origin = document.getElementById("my-text44")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText45(){
-                var origin = document.getElementById("my-text45")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText46(){
-                var origin = document.getElementById("my-text46")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText47(){
-                var origin = document.getElementById("my-text47")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText48(){
-                var origin = document.getElementById("my-text48")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText49(){
-                var origin = document.getElementById("my-text49")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText50(){
-                var origin = document.getElementById("my-text50")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText51(){
-                var origin = document.getElementById("my-text51")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText52(){
-                var origin = document.getElementById("my-text52")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText53(){
-                var origin = document.getElementById("my-text53")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText54(){
-                var origin = document.getElementById("my-text54")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText55(){
-                var origin = document.getElementById("my-text55")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText56(){
-                var origin = document.getElementById("my-text56")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText57(){
-                var origin = document.getElementById("my-text57")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText58(){
-                var origin = document.getElementById("my-text58")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText59(){
-                var origin = document.getElementById("my-text59")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText60(){
-                var origin = document.getElementById("my-text60")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText61(){
-                var origin = document.getElementById("my-text61")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText62(){
-                var origin = document.getElementById("my-text62")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText63(){
-                var origin = document.getElementById("my-text63")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText64(){
-                var origin = document.getElementById("my-text64")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText65(){
-                var origin = document.getElementById("my-text65")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText66(){
-                var origin = document.getElementById("my-text66")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText67(){
-                var origin = document.getElementById("my-text67")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText68(){
-                var origin = document.getElementById("my-text68")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText69(){
-                var origin = document.getElementById("my-text69")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText70(){
-                var origin = document.getElementById("my-text70")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText71(){
-                var origin = document.getElementById("my-text71")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText72(){
-                var origin = document.getElementById("my-text72")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText73(){
-                var origin = document.getElementById("my-text73")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText74(){
-                var origin = document.getElementById("my-text74")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText75(){
-                var origin = document.getElementById("my-text75")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText76(){
-                var origin = document.getElementById("my-text76")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText77(){
-                var origin = document.getElementById("my-text77")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText78(){
-                var origin = document.getElementById("my-text78")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText79(){
-                var origin = document.getElementById("my-text79")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText80(){
-                var origin = document.getElementById("my-text80")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText81(){
-                var origin = document.getElementById("my-text81")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText82(){
-                var origin = document.getElementById("my-text82")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText83(){
-                var origin = document.getElementById("my-tex83")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText84(){
-                var origin = document.getElementById("my-text84")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText85(){
-                var origin = document.getElementById("my-text85")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText86(){
-                var origin = document.getElementById("my-text86")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText87(){
-                var origin = document.getElementById("my-text87")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText87(){
-                var origin = document.getElementById("my-text87")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText88(){
-                var origin = document.getElementById("my-text88")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText89(){
-                var origin = document.getElementById("my-text89")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText90(){
-                var origin = document.getElementById("my-text90")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            /*tab02(두번째 탭 화면) 스크립트*/
-         
-            function copyText91(){
-                var origin = document.getElementById("my-text91")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText92(){
-                var origin = document.getElementById("my-text92")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText93(){
-                var origin = document.getElementById("my-text93")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText94(){
-                var origin = document.getElementById("my-text94")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText95(){
-                var origin = document.getElementById("my-text95")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText96(){
-                var origin = document.getElementById("my-text96")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText97(){
-                var origin = document.getElementById("my-text97")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText98(){
-                var origin = document.getElementById("my-text98")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText99(){
-                var origin = document.getElementById("my-text99")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText100(){
-                var origin = document.getElementById("my-text100")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText101(){
-                var origin = document.getElementById("my-text101")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText102(){
-                var origin = document.getElementById("my-text102")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText103(){
-                var origin = document.getElementById("my-text103")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText104(){
-                var origin = document.getElementById("my-text104")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText105(){
-                var origin = document.getElementById("my-text105")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText106(){
-                var origin = document.getElementById("my-text106")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText107(){
-                var origin = document.getElementById("my-text107")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText108(){
-                var origin = document.getElementById("my-text108")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText109(){
-                var origin = document.getElementById("my-text109")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText110(){
-                var origin = document.getElementById("my-text110")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText111(){
-                var origin = document.getElementById("my-text111")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText112(){
-                var origin = document.getElementById("my-text112")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText113(){
-                var origin = document.getElementById("my-text113")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText114(){
-                var origin = document.getElementById("my-text114")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText115(){
-                var origin = document.getElementById("my-text115")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText116(){
-                var origin = document.getElementById("my-text116")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText117(){
-                var origin = document.getElementById("my-text117")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText118(){
-                var origin = document.getElementById("my-text118")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText119(){
-                var origin = document.getElementById("my-text119")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText120(){
-                var origin = document.getElementById("my-text120")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText121(){
-                var origin = document.getElementById("my-text121")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText122(){
-                var origin = document.getElementById("my-text122")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText123(){
-                var origin = document.getElementById("my-text123")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText124(){
-                var origin = document.getElementById("my-text124")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText125(){
-                var origin = document.getElementById("my-text125")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText126(){
-                var origin = document.getElementById("my-text126")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText127(){
-                var origin = document.getElementById("my-text127")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText128(){
-                var origin = document.getElementById("my-text128")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText129(){
-                var origin = document.getElementById("my-text129")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText130(){
-                var origin = document.getElementById("my-text130")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText131(){
-                var origin = document.getElementById("my-text131")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText132(){
-                var origin = document.getElementById("my-text132")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText133(){
-                var origin = document.getElementById("my-text133")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText134(){
-                var origin = document.getElementById("my-text134")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText135(){
-                var origin = document.getElementById("my-text135")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText136(){
-                var origin = document.getElementById("my-text136")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText137(){
-                var origin = document.getElementById("my-text137")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText138(){
-                var origin = document.getElementById("my-text138")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText139(){
-                var origin = document.getElementById("my-text139")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText140(){
-                var origin = document.getElementById("my-text140")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText141(){
-                var origin = document.getElementById("my-text141")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText142(){
-                var origin = document.getElementById("my-text142")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText143(){
-                var origin = document.getElementById("my-text143")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText144(){
-                var origin = document.getElementById("my-text144")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText145(){
-                var origin = document.getElementById("my-text145")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText146(){
-                var origin = document.getElementById("my-text146")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText147(){
-                var origin = document.getElementById("my-text147")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText148(){
-                var origin = document.getElementById("my-text148")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText149(){
-                var origin = document.getElementById("my-text149")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText150(){
-                var origin = document.getElementById("my-text150")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-            function copyText151(){
-                var origin = document.getElementById("my-text151")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText152(){
-                var origin = document.getElementById("my-text152")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText153(){
-                var origin = document.getElementById("my-text153")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText154(){
-                var origin = document.getElementById("my-text154")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText155(){
-                var origin = document.getElementById("my-text155")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText156(){
-                var origin = document.getElementById("my-text156")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText157(){
-                var origin = document.getElementById("my-text157")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText158(){
-                var origin = document.getElementById("my-text158")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText159(){
-                var origin = document.getElementById("my-text159")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText160(){
-                var origin = document.getElementById("my-text160")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText161(){
-                var origin = document.getElementById("my-text161")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText162(){
-                var origin = document.getElementById("my-text162")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText163(){
-                var origin = document.getElementById("my-text163")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText164(){
-                var origin = document.getElementById("my-text164")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText165(){
-                var origin = document.getElementById("my-text165")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText166(){
-                var origin = document.getElementById("my-text166")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText167(){
-                var origin = document.getElementById("my-text167")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText168(){
-                var origin = document.getElementById("my-text168")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText169(){
-                var origin = document.getElementById("my-text169")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText170(){
-                var origin = document.getElementById("my-text170")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText171(){
-                var origin = document.getElementById("my-text171")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText172(){
-                var origin = document.getElementById("my-text172")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText173(){
-                var origin = document.getElementById("my-tex173")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText174(){
-                var origin = document.getElementById("my-text174")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText175(){
-                var origin = document.getElementById("my-text175")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText176(){
-                var origin = document.getElementById("my-text176")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText177(){
-                var origin = document.getElementById("my-text177")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText177(){
-                var origin = document.getElementById("my-text177")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText178(){
-                var origin = document.getElementById("my-text178")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText179(){
-                var origin = document.getElementById("my-text179")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-            function copyText180(){
-                var origin = document.getElementById("my-text180")
-                origin.select() 
-                document.execCommand('copy')
-                alert("HAPPY COPYCONଈ Copy Success!")
-            }
-
-
-
-            
-
-
-        </script>
-
-      
-       
+        
+                <script src="../javascript/mytext.js" charset="utf-8"></script>
+        
     </div>
+
+    
 </body>
 </html>
