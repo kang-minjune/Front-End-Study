@@ -1,0 +1,53 @@
+
+textarea{height: 30px; width: 30px; padding: 10px; border: 1px solid burlywood; resize: none; border-radius: 10px; color:black; font-size: 22px; text-align: center;
+    
+}
+
+input[type="radio"] {display: none;}
+input[type="radio"] + label {display: inline-block; padding: 10px; background: none; color:rgb(194, 165, 123); font-size: 25px; cursor: pointer;} 
+input[type="radio"]:checked + label {background: none; color: red;}
+            
+.conbox {padding: 10; background: none; margin:0 auto; display: none;}
+            
+input[id="tab01"]:checked ~ .con1 {display:block;}
+input[id="tab02"]:checked ~ .con2 {display:block;}
+input[id="tab03"]:checked ~ .con3 {display:block;}
+input[id="tab04"]:checked ~ .con4 {display:block;}
+
+
+button{
+    background-color: whitesmoke;
+    color: rgb(194, 165, 123);
+    font-size:14px;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.emoticon{
+            font-size: 10px;
+   
+            width: 900px; 
+            height: 700px; 
+            background-color: whitesmoke;
+            text-align: center;
+            border: 2px solid burlywood;
+            border-radius: 15px;
+
+
+}
+
+#wrap{
+    width: 600px;
+    height: 600px;
+    padding: 0 auto;
+}
+
+ol{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(194, 165, 123);
+}
+
+#copyright{
+    float: left;
+}
