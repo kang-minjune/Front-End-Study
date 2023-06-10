@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!--FAVICON 소스-->
+    <link rel="shortcut icon" type="image/x-icon" href="../IMG/graduationcap.ico"> 
+
+    <title>Conditions for Graduation</title>
+    
+    <link rel="stylesheet" href="../CSS/index.css">
+    
+</head>
+
+<body>
+
+
+<div id="wrap"> 
+    
+    <!--배너 HTML-->
+    <div class="banner"><strong>
+        <a href="../HTML/index.html"><button type="button" style="text-decoration:burlywood underline; background: white; border: none; font-size: 30px; font-family:fantasy;">
+        Conditions for Graduation</button></a></strong></caption>
+    </div><br>
+   
+
+    <!--메뉴바 HTML-->
+    <div class="tabmenu">
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="file:///C:/Users/bkokm/Desktop/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/[%ED%95%99%EC%88%A0%EC%A0%9C]%EC%A1%B8%EC%97%85%EC%A1%B0%EA%B1%B4%20%EA%B3%84%EC%82%B0%20%EC%9B%B9/HTML/major.html">
+              MAJOR</a></li>
+        </ul>
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="file:///C:/Users/bkokm/Desktop/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/[%ED%95%99%EC%88%A0%EC%A0%9C]%EC%A1%B8%EC%97%85%EC%A1%B0%EA%B1%B4%20%EA%B3%84%EC%82%B0%20%EC%9B%B9/HTML/refinement.html">
+              REFINEMENT</a></li>
+        </ul>
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="file:///C:/Users/bkokm/Desktop/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/[%ED%95%99%EC%88%A0%EC%A0%9C]%EC%A1%B8%EC%97%85%EC%A1%B0%EA%B1%B4%20%EA%B3%84%EC%82%B0%20%EC%9B%B9/HTML/poommileage.html">
+              POOM MILEAGE</a></li>
+        </ul>
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="file:///C:/Users/bkokm/Desktop/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/[%ED%95%99%EC%88%A0%EC%A0%9C]%EC%A1%B8%EC%97%85%EC%A1%B0%EA%B1%B4%20%EA%B3%84%EC%82%B0%20%EC%9B%B9/HTML/schoolnumber.html">
+              SCHOOL NUMBER</a></li>
+        </ul>
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="https://www.kornu.ac.kr/mbs/kornukr/index.jsp">KNU MAIN</a></li>
+        </ul>
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="https://nabest.kornu.ac.kr/">NA-BEST</a></li>
+        </ul> 
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="https://cms.kornu.ac.kr/it/index.do">IT HOMEPAGE</a></li>
+        </ul>
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="https://www.1365.go.kr/vols/main.do">1365</a></li>
+        </ul>  
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="https://www.vms.or.kr/main.do">VMS</a></li>
+        </ul>  
+
+        <ul style="float:left; font-size: 14px;">
+          <li><a href="#about">OTHERS</a></li>
+        </ul>  
+          
+  </div>
+
+  
+
+   
+
+    <!--이미지 슬라이드 HTML,JS-->
+    <div id="slideshow">
+      <img src="../IMG/slide1.PNG">
+      <img src="../IMG/slide2.PNG">
+      <img src="../IMG/slide3.PNG">
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementById("slideshow").getElementsByTagName("img");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000); // 2초마다 이미지 변경
+    }
+  </script>   
+
+ <!--로그인창 HTML--> 
+ <div class="container">
+                        
+  <form>
+      
+      <fieldset>
+          
+          <div>
+              <label style="float:left; font-size: 15px;">ID:　</label>
+              <input type="text" name="email" placeholder="SHOOL NUMBER" style="font-size: 13px;">
+          </div><br><br>
+          
+          <div>
+                  <label style="float:left; font-size: 15px;">PW:　</label>
+                  <input type="password" class="hide" name="Password" placeholder="PASSWORD" style="font-size: 13px;"></div><br><br>
+
+                  <input type="checkbox" name="login"> <label for="a" style="color:black; font-size: 8px; text-align: left;">로그인 유지</label>
+                  <span style="font-size:12px;"><a href="../HTML/signup/signup.html"><button type="button" style="font-size: 11px; background-color: white; border: none;">회원가입</button></a></span>                              
+                  <span style="font-size:12px;"><a href="../HTML/information/information.html"><button type="button" href="../HTML/information/information.html" style="font-size: 11px; background-color: white; border:none;">회원정보</button></a></span>
+                  <input type="submit" value="LOGIN">          
+      </fieldset>
+      
+  </form>
+  
+</div>
+  
+
+  <!--달력 HTML/JS-->
+  <div>
+  <div>
+
+    <table id="calendar" boarder="3" style="float:left; font-size: 20px; width: 25%; color:black;">
+      <tr>
+          <td><label onclick="prevCalendar(today)"><</label></td>
+             <td colspan="5" id="calendarYM">𝐂𝐀𝐋𝐄𝐍𝐃𝐀𝐑</td>
+             <td><label onclick="nextCalendar()">>
+                
+             </label></td>
+         </tr>
+         <tr>
+          <td align="center" style="color:red;">일</td>
+          <td align="center">월</td>
+          <td align="center">화</td>
+          <td align="center">수</td>
+          <td align="center">목</td>
+          <td align="center">금</td>
+          <td align="center" style="color:blue;">토</td>         
+      </tr>
+       
+      
+     </table>
+     
+    <!--아이콘 HTML-->
+
+    <div style="float:right;">
+    
+      <a href="https://portal.kornu.ac.kr/sso/unitylogin_web.jsp" target="_blank"><button type="button" style="background-color: white; float:left; border:none; margin:10px;">
+      <img src="../IMG/information.ico" width="35"></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong>종합시스템</strong></h4>
+
+      
+      <a href="http://was.kornu.ac.kr/sugang/" target="_blank"><button type="button" style="background-color: white; float:left; border:none; margin:10px;">
+      <img src="../IMG/subscription.ico" width="35" ></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong>수강신청</strong></h4>
+
+      
+      <a href="https://cms.kornu.ac.kr/it/2036/subview.do" target="_blank"><button type="button" style="background-color: white; float:left; border:none; margin:10px;">
+      <img src="../IMG/instagram.ico" width="35" ></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong> 인스타그램</strong></h4>
+    </div>
+
+    <div style="float:right;">
+        
+      <a href="https://ncyber.kornu.ac.kr/login.php" target="_blank"><button type="button" style="background-color: white; float:left; border:none; margin:10px;">
+      <img src="../IMG/ncyber.ico" width="35"></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">NCYBER</h4>
+
+      
+
+      <a href="https://www.bing.com/search?q=구글&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=구&sc=10-1&sk=&cvid=264B4A384C3A45E3AFC4D78A9D925A05&ghsh=0&ghacc=0&ghpl=" target="_blank"><button type="button" style="background-color: white; float:right; border:none; margin:10px;">
+      <img src="../IMG/google.ico" width="35"></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">GOOGLE</h4>
+
+      
+      <a href="https://www.facebook.com/knuipsi" target="_blank"><button type="button" style="background-color: white; float:right; border:none; margin:10px;">
+      <img src="../IMG/facebook.ico" width="35"></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong>IT 페이스북</strong></h4>
+  </div>
+
+  
+
+  <div style="float:right;">
+        
+    <a href="http://nabest.kornu.ac.kr/Career/degree.aspx" target="_blank"><button type="button" style="background-color: white; float:left; border:none; margin:10px;">
+    <img src="../IMG/pointcheck.ico" width="35" ></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong>학점확인</strong></h4>
+
+    
+    <a href="https://cms.kornu.ac.kr/it/2044/subview.do" target="_blank"><button type="button" style="background-color: white; float:left; border: none; margin:10px;">
+    <img src="../IMG/info.ico" width="35" ></a></button><br><h4 style="font-size: 10px; color:black; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><strong>졸업요건</strong></h4>
+
+    
+    <a href="https://cms.kornu.ac.kr/it/2036/subview.do" target="_blank"><button type="button" style="background-color: white; float:left; border: none; margin:10px;">
+    <img src="../IMG/personal.ico" width="35"></a></button><br><h4 style="font-size: 10px; color:black; text-align: center;"><strong>교수소개</strong></h4>
+  </div>
+  
+  </div>
+  
+ 
+
+</div>
+<script>
+  var today = new Date(); // 오늘 날짜//지신의 컴퓨터를 기준으로
+  //today 에 Date객체를 넣어줌 //ex)5일  
+  function prevCalendar() {
+    today = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
+    buildCalendar(); // 현재 달 
+  }
+    
+  function nextCalendar() {
+    today = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
+    buildCalendar();
+  }
+    
+  function buildCalendar() {// 현재 달fur
+    var nMonth = new Date(today.getFullYear(), today.getMonth(), 1);  // 이번 달의 첫째 날
+    var lastDate = new Date(today.getFullYear(), today.getMonth()+1, 0); // 이번 달의 마지막 날
+    var tblCalendar = document.getElementById("calendar");     // 테이블 달력을 만들 테이블
+    var tblCalendarYM = document.getElementById("calendarYM");    // yyyy년 m월 출력할 곳
+    tblCalendarYM.innerHTML = today.getFullYear() + "년 " + (today.getMonth()) + "월";  // yyyy년 m월 출력
+  // 기존 테이블에 뿌려진 줄, 칸 삭제
+    
+    
+    while (tblCalendar.rows.length > 2) {
+    tblCalendar.deleteRow(tblCalendar.rows.length - 1);
+    }
+    var row = null;
+    row = tblCalendar.insertRow();
+    var cnt = 0;
+  // 1일이 시작되는 칸을 맞추어 줌
+    for (i=0; i<nMonth.getDay(); i++) {
+    cell = row.insertCell();
+    cnt = cnt + 1;
+    }
+    
+    for (i=1; i<=lastDate.getDate(); i++) { 
+    cell = row.insertCell();
+    cell.innerHTML = i;
+    cnt = cnt + 1;
+    if (cnt%7 == 0)// 1주일이 7일 이므로
+      row = calendar.insertRow();// 줄 추가
+    }  
+  }
+</script>
+  <br><br><br>
+
+
+   <!--검색창 HTML-->
+   <div>
+      <section style="float:left;">
+          <form action="https://search.naver.com/search.naver">
+              <div class="search">
+                  <input type="text" name="query" value="" placeholder="sᴇᴀʀᴄʜ" style="font-size: 16px;">
+                  <button type="submit">  <img src="../IMG/searchweb.ico" href="https://search.naver.com/search.naver"></button>
+              </div>
+          </form>
+        </section>
+        <br>
+        
+        
+  <!--공지사항 HTML-->
+      <header>
+        <div class="homebox">
+            <a href="index.html" class="logo"></a>
+        </div>
+    </header> 
+
+          
+      
+    
+        <div class="notice" style="float:left;">
+              <table>
+                      <tr>
+                          <th class="col1">번호</th>
+                          <th class="col2">제목</th>
+                      </tr>
+                      <tr>
+                          <td>1</td>
+                          <td><a href="https://cms.kornu.ac.kr/it/3300/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGaXQlMkY2NTglMkYxMDgyMTQlMkZhcnRjbFZpZXcuZG8lM0Y%3D">
+                            학술제 연구계획서</a></td>
+                      </tr>
+                      <tr>
+                          <td>2</td>
+                          <td><a href="detail.html">공지사항 2</a></td>
+                      </tr>
+                      <tr>
+                          <td>3</td>
+                          <td><a href="detail.html">공지사항 3</a></td>
+                      </tr>
+                      <tr>
+                          <td>4</td>
+                          <td><a href="detail.html">공지사항 4</a></td>
+                      </tr>
+                      <tr>
+                          <td>5</td>
+                          <td><a href="detail.html">공지사항 5</a></td>
+                      </tr>
+                      <tr>
+                          <td>6</td>
+                          <td><a href="detail.html">공지사항 6</a></td>
+                      </tr>                   
+              </table>
+          </div>
+      
+      
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+      
+    <div>
+      <!--시계 HTML-->
+      <div class="clock" style="float:left;">
+        <div id="watch" style="color:white; text-shadow: 2px 2px 6px black;">00:00:00</div>
+      </div>
+      <script>
+          window.onload = function () {
+
+          clock();
+
+          }
+
+          function clock() {
+          var today = new Date();
+          var todayHour = convert24to12(today.getHours());
+          var todayMin = today.getMinutes()
+          var todaySec = today.getSeconds();
+          var todayAmPm = ap(today.getHours());
+
+          document.getElementById('watch').innerHTML = 
+
+          '<span style=font-size:30%>' +
+            todayAmPm + '</span>' +
+            todayHour + ' : '  +
+            todayMin + ' : ' +
+            todaySec;
+
+          window.setInterval('clock()',1000);
+          }
+
+          function ap(h){
+
+          var ampm = Math.floor(h/12);
+
+          if(ampm == 0){
+            return 'AM'
+
+            }else{
+
+              return 'PM';
+
+            }
+          }
+
+
+          function convert24to12 (h){
+
+          var hour_12 = h%12;
+
+            if(hour_12 ==0){
+
+              hour_12 += 12;
+
+            }
+            return hour_12;
+
+          }
+
+
+
+          function doubleDigit(a){
+
+          if(a > 9){
+            return a;
+
+            }else{
+
+              return '0'+a;
+
+            }
+          }
+
+      </script>
+      <br>
+      
+      <!--폰트 디자인 HTML-->
+      <div class="loading" style="color: black; text-decoration: wavy; font-size: 50px; float: right; text-shadow: 2px 2px 6px gray; text-align: right;">       
+        <span style="text-align: right;">ᴛᴇᴀᴍ</span>
+        <span style="text-align: right;">ᴄɢ</span>
+      </div><br>
+    </div><br>
+
+      <!--언더라인 및 저작표시 HTML-->
+      <div id="footer" style="float:left; color:white; background-color: #555;width: 100%; height: 5%; font-size: 14px; text-align:end;">
+            DEVLOPER IG:
+            <a href="https://instagram.com/minzunkang?igshid=OGQ5ZDc2ODk2ZA==">
+              <img src="../IMG/instagram.ico" width="15"><button type="button" href="https://instagram.com/minzunkang?igshid=OGQ5ZDc2ODk2ZA==" style="background-color: #555; color: white; border:none;">강민준</button>
+            </a>
+            <a href="https://instagram.com/xerosix_won?igshid=OGQ5ZDc2ODk2ZA==">
+              <img src="../IMG/instagram.ico" width="15"><button type="button" href="https://instagram.com/minzunkang?igshid=OGQ5ZDc2ODk2ZA==" style="background-color: #555; color: white; border:none;">유지원</button>
+            </a>
+            <a href="https://instagram.com/jk_park0525?igshid=OGQ5ZDc2ODk2ZA==">
+              <img src="../IMG/instagram.ico" width="15"><button type="button" href="https://instagram.com/minzunkang?igshid=OGQ5ZDc2ODk2ZA==" style="background-color: #555; color: white; border:none;">박재경</button>
+            </a>
+        </div>
+
+      
+    </body>
+</html>
